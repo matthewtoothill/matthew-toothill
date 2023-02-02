@@ -1,19 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@200&display=swap');
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+</style>
 
+/*
 
+Mobile first
+
+*/
+
+[class*="col-"] {
+  width: 100%;
+}
 
 body {
-    background: hotpink;
+    background: rgb(208, 218, 149);
     padding: 3rem;
-    font-family: 'Sofia Sans', sans-serif;
+    font-family: 'Teko', sans-serif;
   }
 
+.title {
+}
 
   .first-section {
-    border: 4px solid black;padding: 3rem;
+    border: 15px solid black;padding: 3rem;
+    text-align: center;
+
+   
   }
 
+  .text-underline {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    font-size:4.0em;
+    font-family: 'Teko', sans-serif;
+    padding: 0.5em;
+    border: 2px solid black;
+    margin: 0.25em;
+  }
 
   strong {
     font-weight: 100;
@@ -22,7 +48,7 @@ body {
   
   .button {
     width: 10em;
-    border: 1px solid red;
+    border: 1px solid rgb(222, 215, 74);
     padding: 1em;
     border-radius: 1em;
     background: white;
