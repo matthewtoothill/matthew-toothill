@@ -9,6 +9,13 @@ Mobile first
 
 */
 
+{
+  box-sizing: border-box;
+}
+*,* :before, *:after {
+  box-sizing: inherit;
+}
+
 [class*="col-"] {
   width: 100%;
 }
@@ -23,10 +30,11 @@ body {
 }
 
   .first-section {
-    border: 15px solid black;padding: 3rem;
+    border: 15px solid black;padding: 3rem; 
+    margin: 0 auto;
     text-align: center;
-
-   
+    width: 70%;
+    
   }
 
   .text-underline {
@@ -43,7 +51,7 @@ body {
 
   strong {
     font-weight: 100;
-    color: lightblue;
+    color: rgb(0, 0, 0);
   }
   
   .button {
